@@ -1,0 +1,112 @@
+@import "bootstrap.min.css";
+
+.top-nav
+{
+	border: 0px;
+	border-radius:0;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2C407A), to(#4A6ACC)); 
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #164069, #476C91); 
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #233362, #1F5C99);  /**/
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #164069, #476C91); 
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #164069, #476C91);
+	color:#CCCCCC; 
+	font-size:16px;
+	box-shadow: 0px 5px 10px #8A8A8A;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+	color:#CCCCCC;
+}
+
+.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+{
+	background:#E6E6E6 !important;
+}
+
+.caret
+{
+	margin-left: 2px;
+	vertical-align: middle;
+	border-top: 4px solid #CCCCCC !important;
+	border-right: 4px solid transparent;
+	border-bottom: 0 dotted;
+	border-left: 4px solid transparent;
+}
+
+.box
+{
+	border: 1px solid #C2C2C2; 
+	border-radius:7px; 
+	background-color:#FFF; 
+	box-shadow: 0px 7px 10px #CCC; 
+	padding:10px;
+	margin:15px
+}
+
+.box-product
+{
+	float:left;
+	width:230px;
+	border-radius:0px;
+	/*min-height:230px;*/
+	overflow:hidden;
+	padding: 15px;
+	margin-top:30px;
+	margin-bottom:0px;
+	margin-right:0px;
+	margin-left:30px;
+}
+
+.ellipsis {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 12; /* number of lines to show */
+   line-height: X;        /* fallback */
+   max-height: X*N;       /* fallback */
+}
+
+.footer
+{
+	background:url('../img/footer-light.jpg');
+	background-repeat:repeat-x;
+	color:white;
+	margin:0px 0px 0px 0px;
+	margin-bottom:0px; 
+	border-radius:0px;
+	min-height:150px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+    font-size:16px;
+    color:#C0C0C0;
+}
+
+.footer a:link
+{
+    text-decoration:none;
+    color:#C0C0C0;
+}
+    
+.footer a:visited
+{
+    text-decoration:none;
+    color:#C0C0C0;
+}
+    
+.footer a:hover
+{
+    text-decoration:none;
+    color:White;
+}
+    
+.footer a:active
+{
+    text-decoration:none;
+    color:#C0C0C0;
+}
+
