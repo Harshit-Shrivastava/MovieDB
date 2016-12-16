@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>Insert title here</title>
+	<title>MovieDB</title>
 	<script src="js/jquery.js"></script>
 	<link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
 </head>
@@ -36,8 +36,13 @@
 	<!--Header ends here-->
 	<!--Content starts here-->
 	<div class= "container" style="min-height:500px;">
-		<div class="col-md-12 col-md-offset-1" id="results"></div>
+		<div class ="row">
+			<div class="col-md-12 col-md-offset-1" id="results"></div>
+			<br/>
+		</div>
+		<div class="row col-md-12 col-md-offset-1" id="recommendations"></div>	
 	</div>
+	
 	<!--Content ends here-->
 	<!--Footer starts here-->
 	<br/>
