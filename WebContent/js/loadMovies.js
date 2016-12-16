@@ -179,7 +179,7 @@ function getCast(movieName){
 		"?film_title rdfs:label ?lang " +
 		"FILTER(LANG(?film_abstract) = 'en') " +
 		"FILTER(LANG(?lang) = 'en') " +
-		"FILTER regex(?name, '" + movieName + "', 'i') " + //movie name here
+		"FILTER regex(?name, '"+movieName+"', 'i') " + //movie name here
 		"} " +
 		"LIMIT 5 OFFSET 0 ";
 	var queryUrl = endpoint+"?query="+ encodeURIComponent(query) +"&format=json";
